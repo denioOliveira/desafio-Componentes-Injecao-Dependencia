@@ -4,6 +4,9 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import com.devsuperior.desafio1.entities.Order;
+import com.devsuperior.desafio1.services.OrdeService;
+
 @SpringBootApplication
 public class Desafio1Application implements CommandLineRunner {
 	

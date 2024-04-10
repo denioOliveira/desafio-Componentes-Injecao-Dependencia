@@ -1,4 +1,4 @@
-package com.devsuperior.desafio1;
+package com.devsuperior.desafio1.entities;
 
 import org.springframework.stereotype.Service;
 

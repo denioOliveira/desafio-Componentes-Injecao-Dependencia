@@ -1,12 +1,19 @@
-package com.devsuperior.desafio1;
+package com.devsuperior.desafio1.services;
 
 import org.springframework.stereotype.Service;
+
+import com.devsuperior.desafio1.entities.Order;
 
 @Service
 public class OrdeService {
 	
-	ShippingService shipping = new ShippingService();
+	private ShippingService shipping;
 	
+	public OrdeService(ShippingService shipping) {
+		this.shipping = shipping;
+	}
+
+
 	public Double total(Order order) {
 		double aux1;
 		aux1 = order.getDiscount() / 100 * order.getBasic();

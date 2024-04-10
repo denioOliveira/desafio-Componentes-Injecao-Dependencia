@@ -1,6 +1,8 @@
-package com.devsuperior.desafio1;
+package com.devsuperior.desafio1.services;
 
 import org.springframework.stereotype.Service;
+
+import com.devsuperior.desafio1.entities.Order;
 
 @Service
 public class ShippingService {
